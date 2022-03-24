@@ -1,4 +1,3 @@
-SAMPLES: ['SLX-18968.UDP0031.HT3G5DMXX.s_2', 'SLX-18968.UDP0039.HT3G5DMXX.s_2']
 COHORT: "chr15" #The vcf file chr15.vcf and chr15.ped shoud exist in this case  
 GENEFILE: "refFlat_hg19.txt.gz"
 UPPER_FREQ: 0.01
