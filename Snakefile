@@ -1,7 +1,5 @@
 configfile: "config.yaml"
 
-SAMPLES = config['SAMPLES']
-
 rule all:
       input:
            expand("{cohort}.vcf.gz", cohort=config['COHORT']),

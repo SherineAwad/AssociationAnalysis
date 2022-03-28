@@ -20,6 +20,17 @@ These types of tests are less powerful when the variants are in the same directi
 When we don't have any prior information about the variants we have, we can use **combined test**. These approaches are robust regardless of the percentage of causal variants and
 the existence of both trait-increasing and trait-decreasing variants. A famous approach under this category is **SKATO**. 
 
+### Edit the config file
+
+You will need to edit the config file as below:
+
+| Config Variable      | Description                       |
+| ---------------------| ----------------------------------|
+| COHORT               |  Name of your Cohort              |
+| GENEFILE             |  Annotation file path             |
+| UPPER_FREQ           |  Maximum Frequency of the variant |
+| OUTPUT               |  Name of your output              |
+
 
 
 
